@@ -12,13 +12,14 @@ body {
 
 
 .book-form {
+    display: none;
     width: 50%;
     height: 50%;
-    display: none;
     background-color: blueviolet;
     padding-top: 10px;
     margin: 40px auto;
-    border-radius: 10px;   
+    border-radius: 10px;
+    z-index: 7;   
 }
 
 form {
@@ -62,12 +63,22 @@ p {
     font-size: 1.2rem;
 }
 
+ .btn {
+   
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(145, 144, 146);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
 .cancel {
     border: none;
     border-radius: 10px;
     background-color: rgb(145, 144, 146);
     color: white;
-    padding: 0 20px;
+    padding: 10px;
 }
 
 .bookBtn {
@@ -99,16 +110,19 @@ p {
 }
 
 .inputData {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 45%;
     height: 30%;
-    background-color: blueviolet;
-    margin-top: 40px;
+    background: linear-gradient(175deg, rgb(90, 86, 86), rgb(125, 25, 164));
+    padding-top: 40px;
     border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(93, 90, 90);
 }
 
 .inputData p {
     width: 100%;
-    padding: 20px;
+    margin: 25px 7px;
+    font-style: italic;
+    
 }
