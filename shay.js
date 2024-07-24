@@ -34,7 +34,6 @@ function getCard() {
    inputValues.style.display = "flex"
    inputValues.style.paddingLeft = "20px"
    inputValues.style.paddingTop = "7px"
-   inputValues.style.fontWeight = "bold"
    inputValues.style.color = "white"
    cardTitle.appendChild(title)
    title.textContent = "Title:"
@@ -48,6 +47,7 @@ function getCard() {
    pageCount.textContent = "Pages:"
    cardTitle.appendChild(pagePara)
    pagePara.textContent = pageNum.value
+   title.style.fontWeight = "bold"
 
 
 }
