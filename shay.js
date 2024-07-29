@@ -48,6 +48,7 @@ function getCard() {
    cardTitle.appendChild(pagePara)
    pagePara.textContent = pageNum.value
    title.style.fontWeight = "bold"
+   show.style.display = "none"
 
 
 }
@@ -57,6 +58,7 @@ function getForm() {
     inputValues.style.display = "none"
     books.style.display = "none"
     library.style.display = "none"
+
 }
 
 // function getValues() {
@@ -67,12 +69,6 @@ function getForm() {
 
 displayBook.addEventListener("click", getCard)
 books.addEventListener("click", getForm)
-
-
-
-
-
-
 
 
 
